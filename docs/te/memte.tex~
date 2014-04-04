@@ -34,7 +34,7 @@
 \newcommand{\AND}{\textbf{y} }
 \newcommand{\OR}{\textbf{o} }
 
-%%%%%%%%%%%%%%%%% Creamos un entorno para listar c√≥digo fuente %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%% Creamos un entorno para listar cÛdigo fuente %%%%%%%%%%%%%%%
 \newenvironment{sourcecode}
 {\begin{list}{}{\setlength{\leftmargin}{1em}}\item\scriptsize\bfseries}
 {\end{list}}
@@ -105,15 +105,15 @@
 
 \HRule
 \begin{center}
-        {\Huge T√≠tulo del trabajo} \\[2.5mm] 
-        {\Huge Subt√≠tulo} \\[2.5mm]
+        {\Huge TÌtulo del trabajo} \\[2.5mm] 
+        {\Huge SubtÌtulo} \\[2.5mm]
         {\Large Autor (o autores)} \\[5mm]
         {\Large \textit{Grupo ($1\mid2$) }} \\[5mm]
 
 
-        {\em T√©cnicas Experimentales. $1^{er}$ curso. $2^{do}$ semestre} \\[5mm]
-        Lenguajes y Sistemas Inform√°ticos \\[5mm]
-        Facultad de Matem√°ticas \\[5mm]
+        {\em TÈcnicas Experimentales. $1^{er}$ curso. $2^{do}$ semestre} \\[5mm]
+        Lenguajes y Sistemas Inform·ticos \\[5mm]
+        Facultad de Matem·ticas \\[5mm]
         
         Universidad de La Laguna \\
 \end{center}
@@ -130,9 +130,9 @@
 
 \pagestyle{myheadings} %my head defined by markboth or markright
 % No funciona bien \markboth sin "twoside" en \documentclass, pero al
-% ponerlo se dan un mont√≥n de errores de underfull \vbox, con lo que no se
+% ponerlo se dan un montÛn de errores de underfull \vbox, con lo que no se
 % ha puesto.
-\markboth{Nombre del alumno}{T√≠tulo del trabajo}
+\markboth{Nombre del alumno}{TÌtulo del trabajo}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Numeracion en romanos
@@ -164,13 +164,13 @@
 \setlength{\parindent}{5mm}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Motivaci√≥n y objetivos}
+\chapter{MotivaciÛn y objetivos}
 \label{chapter:obj}
 
 \input{tex/cap1.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Fundamentos te√≥ricos}
+\chapter{Fundamentos teÛricos}
 \label{chapter:teo}
 
 \input{tex/cap2.tex}
@@ -194,12 +194,12 @@
 \thispagestyle{empty}
 \begin{appendix}
 
-\chapter{T√≠tulo del Ap√©ndice 1}
+\chapter{TÌtulo del ApÈndice 1}
 \label{appendix:1}
 
 \input{tex/apendice1.tex}
 
-\chapter{T√≠tulo del Ap√©ndice 2}
+\chapter{TÌtulo del ApÈndice 2}
 \label{appendix:2}
 
 \input{tex/apendice2.tex}
@@ -207,7 +207,7 @@
 \end{appendix}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\addcontentsline{toc}{chapter}{Bibliograf√≠a}
+\addcontentsline{toc}{chapter}{BibliografÌa}
 \bibliographystyle{plain}
 
 
