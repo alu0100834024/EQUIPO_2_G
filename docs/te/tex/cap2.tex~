@@ -1,19 +1,8 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Chapter 2: Fundamentos Teóricos 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-En este capítulo se han de presentar los antecedentes teóricos y prácticos que
-apoyan el tema objeto de la investigación.
-
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-\section{Primer apartado del segundo capítulo}
-\label{2:sec:1}
-  Primer párrafo de la primera sección.
-
-\section{Segundo apartado del segundo capítulo}
-\label{2:sec:2}
-  Primer párrafo de la segunda sección.
-
+En \LaTeX{}~\cite{Lam:86} es sencillo escribir espresiones
+matemÃ¡ticas como $a=\sum_{i=1}^{3}$
+y deben ser escritas entre ambos sÃ­mbolos \$.
+Los superÃ­ndices se obtienen con el sÃ­mbolo \^{}, y
+los subÃ­ndices con el sÃ­mbolo \_ .
+Por ejemplo: $x^2 \times y^{\alpha + \beta}$.
+TambiÃ©n se pueden escribir fÃ³rmulas contradas:
+\[h^2=a^2 + b^2 \]

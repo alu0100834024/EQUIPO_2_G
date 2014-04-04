@@ -1,8 +1,6 @@
 \select@language {spanish}
 \contentsline {chapter}{\numberline {1}Motivaci\IeC {\'o}n y objetivos}{1}
 \contentsline {chapter}{\numberline {2}Fundamentos te\IeC {\'o}ricos}{2}
-\contentsline {section}{\numberline {2.1}Primer apartado del segundo cap\IeC {\'\i }tulo}{2}
-\contentsline {section}{\numberline {2.2}Segundo apartado del segundo cap\IeC {\'\i }tulo}{2}
 \contentsline {chapter}{\numberline {3}Procedimiento experimental}{3}
 \contentsline {section}{\numberline {3.1}Descripci\IeC {\'o}n de los experimentos}{3}
 \contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n del material}{3}
