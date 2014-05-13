@@ -1,11 +1,3 @@
-\section{Otro apendice: Seccion 1}
-\label{Apendice2:label}
-
-\begin{center}
-\begin{footnotesize}
-
-\begin{verbatim}
-#Program python para dibujar la gráfica de los errores que se encuentra en este informe
 import matplotlib.pyplot as hola
 hola.subplot(2,1,1)
 x=[0.496558178297, 2.13100384448, 0.689662720778, 0.739652997531, 0.739085204376, 0.739085133215, 0.739085133215, 0.739085133215]
@@ -27,21 +19,3 @@ hola.ylim(-0.1,0.1)
 hola.xlim(0.7390,0.7397)
 hola.savefig("Grafica_de_errores.eps",dpi=72)
 hola.show(y)
-\end{verbatim}
-
-\end{footnotesize}
-\end{center}
-
-\section{Otro apendice: Seccion 2}
-\label{Apendice2:label2}
-
-\begin{center}
-\begin{footnotesize}
-
-\begin{verbatim}
-
-\end{verbatim}
-
-
-\end{footnotesize}
-\end{center}

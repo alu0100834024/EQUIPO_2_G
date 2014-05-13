@@ -1,0 +1,196 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\title[Trabajo Final]{Series de potencias. Método de Newton: $f(x)=cos(x)$}
+\author[Equipo $2_G$]{Nayra K.D, Javier L.M y José Eduardo L.P}
+\institute{ULL.Facult.Matem}
+\date[12/05/2014]{12 de mayo del 2014}
+
+\usetheme{Madrid}
+\definecolor {MiVioleta}{RGB}{122,59,122}
+\definecolor {MiAzul}{RGB}{0,88,147}
+\definecolor {MiGris}{RGB}{56,61,66}
+
+\setbeamercolor*{palette primary}{use=structure, fg=white, bg=MiVioleta}
+\setbeamercolor*{palette secundary}{use=structure, fg=white, bg=MiAzul}
+\setbeamercolor*{palette tertiary}{use=structure, fg=white, bg=MiGris}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Indice}
+\begin{enumerate}
+\item Motivación y objetivos \dotfill 3
+\item Introducción \dotfill 9
+\item Fórmulas \dotfill 11
+\item Máquina \dotfill 14
+\item Tabla de errores \dotfill 15
+\item Gráfica de errores \dotfill 16
+\item Análisis de resultados \dotfill 17
+\item Bibliografía \dotfill 22
+\end{enumerate}
+\end{frame}
+
+
+\begin{frame}
+\begin{itemize}
+\frametitle{Motivación y Objetivos}
+\item Confección un informe en \LaTeX{}.\pause
+\item Utilización del método de Newton.\pause
+\item Aplicación del método de Newton a la función:$f(x)=cos(x)$.\pause
+\item Creación de una presentación en Beamer.\pause
+\item Realización de un código en Python.\pause
+\item Introducir fórmulas matemáticas, gráficos, imágenes, etc.
+\end{itemize}
+\end{frame}
+%
+
+%***********************************************************
+\begin{frame}
+\frametitle{Introducción}
+
+Las series de potencias pueden ser interpretada como una función de x: \\
+
+\centerline{ $ f(x) = \sum_{n=0}^{n\infty} a_n *(x-c)^n $}
+
+cuyo dominio es el conjunto de los x $\in$ R para los que la serie es convergente y el valor de $ f(x) $ es, precisamente, la suma de la serie en ese punto x.
+Las series de potencias son funciones continuas y derivables de cualquier orden. Más aún, su función derivada es, otra vez, una serie de potencias.
+%
+
+
+\end{frame}
+
+%***********************************************************
+
+%***********************************************************
+\begin{frame}
+\frametitle{Introducción}
+
+El método de Newton es una aplicación del cálculo diferencial que se utiliza para hallar los ceros de una función derivable de n-esimo grado.
+Los procedimientos para hallar las raíces o ceros de funciones lineales o cuadráticas a partir de los coeficientes de la ecuación son sencillos y exactos.
+
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=0.25\textwidth]{images/a.eps}
+\caption{Método de Newton}
+\end{center}
+\end{figure}
+\end{frame}
+
+
+%***********************************************************
+
+
+
+\begin{frame}
+\frametitle{Fórmulas}
+\begin{block}
+A continuación procederemos a identificar algunas de las fórmulas que usamos en el desarrollo de la investigación.
+%
+%
+%
+%
+%
+\begin{itemize}
+\item Método de Newton:$ x=xo-\frac{f(xo)}{f'(xo)} $ \pause
+\item Función con la que trabajaremos:$f(x)=cos(x)-x$ \pause
+\item Derivada de la función: $-sen(x)-1$ 
+
+%
+\end{itemize}
+%
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{Máquina}
+\begin{itemize}
+
+\item Sistema operativo(S.O.)
+
+\centerline{'Linux-3.2.0-61-generic-i686-with-Ubuntu-12.04-precise'}
+\vspace{1cm}
+\item El tipo de compilador: Python 
+
+\centerline{'2.7.3'}
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Tabla de errores}
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{|c|l|l|}
+\hline
+     $x_0$     &      error        \\ \hline
+0.496558178297 & 7.04158813835     \\ \hline
+2.13100384448  & 1.2330160875      \\ \hline
+0.689662720778 & 2.089972175491    \\ \hline
+0.739652997531 & 0.0675861206807   \\ \hline
+0.739085204376 & 0.000768237751393 \\ \hline
+0.739085133215 & 9.62821076424e-08 \\ \hline
+0.739085133215 & 1.50215851291e-15 \\ \hline
+0.739085133215 & 0.0               \\ \hline
+
+\end{tabular}
+\end{center}
+\caption{Tabla de errores}
+\end{table}
+\end{frame}
+
+\begin{frame}
+\frametitle{Gráfica de errores}
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{images/Grafica_de_errores.eps}
+\caption{Gráfico de errores}
+\end{center}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Análisis de resultados}
+\begin{enumerate}
+\item Curiosidad: 0.739652997531, 0.739085204376 y 0.739085133215, errores muy diferentes. \pause
+\item Mayor $x_n$, mayor es el error. \pause
+\item x mayores, más valores de $x_n$ y muchos más errores. \pause 
+\item Cercanía de los puntos en la gráfica. \pause
+\item Conclusión: la función tienda a {\bf cero}. 
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{Bibliografia}
+\begin{thebibliography}{10}
+\beamertemplatebookbibitems
+\bibitem [Cáluclo Diferencial]{guia}
+Webcindario. Cálculo Diferencial:
+{\small $ http://ed21.webcindario.com/CalculoDiferencial/metodo_Newton.htm $}
+
+\bibitem [Método de newton]{guia}
+Wordpress. Método de Newton.
+{\small $ http://metododenewton.wordpress.com/$ }
+
+\bibitem [Programa Python]{guia}
+Funciones-python. Método Newton-Raphson
+{\small $ tutorias.com/funciones-pythonmetodo-newton-raphson/ $ }
+
+\bibitem [Series de potencias]{guia}
+Series de potencias.
+{\small $ ocw.uji.es/material/4929/raw$ }
+
+\bibitem [Informe final]{guia}
+Informe final. Campus virtual.\\
+{\small $ http://campusvirtual.ull.es/1314/pluginfile.php/$}
+{\small $/197709/mod_resource/content/2/memte.pdf $ }
+\end{thebibliography}
+\end{frame}
+
+\end{document}
+

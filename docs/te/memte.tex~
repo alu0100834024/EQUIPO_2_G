@@ -176,7 +176,7 @@
 \input{tex/cap2.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Procedimiento experimental}
+\chapter{Procedimiento esperimental}
 \label{chapter:exp}
 
 \input{tex/cap3.tex}
